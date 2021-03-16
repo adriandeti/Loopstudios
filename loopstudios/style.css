@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background: url(images/mobile/image-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding: 3em 1em 69em;
+}
+
+.header-text h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.header-text h1 {
+  border: 2px solid white;
+  padding: 0.5em;
+  padding-right: 0.8em;
+  margin-left: 0.2em;
+}
+
+.hamburger {
+  float: right;
+  padding-right: 1.5em;
+  padding-top: 0.5em;
+  margin-top: 0;
+}
+
+.logo {
+  padding-left: 2em;
+  padding-top: 0.2em;
+  position: absolute;
+}
+
+.mid-content {
+  margin-top: 5em;
+  padding: 2em;
+  text-align: center;
+}
+
+.mid-content img {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.mid-content p {
+  font-size: 1.2em;
+  color: rgb(56, 56, 56);
+  padding: 0 2em;
+  line-height: 1.8em;
+  margin-bottom: 3em;
+}
+
+.lowermid-content {
+  text-align: center;
+}
+
+.lowermid-content img {
+  width: 90%;
+  margin-bottom: 1em;
+}
+
+.pic-1 {
+  background-image: url(images/mobile/image-deep-earth.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  margin: .7em .7em;
+}
+
+.pic-2 {
+  background-image: url(images/mobile/image-night-arcade.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  margin: .7em .7em;
+}
+
+.pic-3 {
+  background-image: url(images/mobile/image-soccer-team.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  margin: .7em .7em;
+}
+
+.pic-4 {
+  background-image: url(images/mobile/image-grid.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  margin: .7em .7em;
+}
+
+.pic-5 {
+  background-image: url(images/mobile/image-from-above.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  margin: .7em .7em;
+}
+
+.pic-6 {
+  background-image: url(images/mobile/image-pocket-borealis.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  margin: .7em .7em;
+}
+
+.pic-7 {
+  background-color: darkblue;
+  background-image: url(images/mobile/image-curiosity.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  width: auto;
+  margin: .7em .7em;
+}
+
+.pic-8 {
+  background-image: url(images/mobile/image-fisheye.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  margin: .7em .7em;
+}
+
+.lowermid-content h2 {
+  margin-bottom: 2em;
+}
+
+.lowermid-content h2 {
+  position: relative;
+  color: white;
+  padding-top: 8em;
+  padding-left: 1em;
+  text-align: left;
+  margin: 0;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid black;
+  padding: 0.8em 4em;
+  margin-top: 1em;
+  font-size: 1em;
+  background-color: transparent;
+  margin-bottom: 5em;
+}
+
+footer {
+  background-color: black;
+  padding: 4em;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  display: block;
+  margin-bottom: 0.7em;
+}
+
+footer img {
+  margin-bottom: 2.5em;
+}
+
+.icons {
+  margin-top: 3em;
+}
+
+.icons img {
+  margin: 0 0.5em;
+}
+
+footer p {
+  color: white;
+  margin-top: 2.5em;
+}
+
+@media (min-width: 730px) {
+  .header {
+    background: url(images/mobile/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 3em 1em 24em;
+  }
+
+  .header-text h1 {
+    color: white;
+    position: relative;
+    text-align: left;
+    padding: 0.8em;
+    margin-top: 11em;
+    margin-right: 0.7em;
+    padding-right: 0.5em;
+  }
+
+  .lowermid-content h2 {
+    position: relative;
+    font-size: 1.7em;
+    color: white;
+    padding-top: 7em;
+    padding-left: 1.5em;
+    text-align: left;
+    margin: 0;
+    width: auto ;
+  }
+}
+
+@media (min-width: 930px) {
+  .header {
+    background: url(images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 3em 1em 74em;
+  }
+
+  .header-text h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    margin-top: 0;
+    font-size: 3.8em;
+  }
+
+  .header-text h1 {
+    border: 2px solid white;
+    padding: 1.5em;
+    padding-right: 2em;
+    margin-left: 3em;
+  }
+
+  .logo {
+    padding-left: 11em;
+    padding-top: 1em;
+    position: absolute;
+  }
+  
+  .mid-content img {
+    width: 50%;
+    margin-bottom: 20em;
+    margin-left: 10em;
+    float: left;
+    position: relative;
+  }
+
+  .mid-contentext {
+      position: relative;
+      border: 2px solid white;
+      background-color: white;
+      margin-left: 50em;
+      margin-top: 10em;
+      padding-top: 10em;
+      padding-bottom: 9em;
+      padding-left: 11em;
+      padding-right: 10em;
+      text-align: left;
+  }
+
+  .mid-contentext h1 {
+      font-size: 3em;
+  }
+
+  .lowermid-content h1 {
+      text-align: left;
+      width: 30%;
+      position: relative;
+      margin-top: 1em;
+      padding-left: 5.5em;
+      padding-top: 1em;
+      margin-left: 0;
+      margin-bottom: 2.1em;
+
+  }
+
+  .btn {
+    float: right;
+    position: absolute;
+    margin-bottom: 115em;
+    margin-left: 87em;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 0.8em 4em;
+    font-size: 1em;    
+  }
+
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15em;
+}
+
+.pic-1 {
+  background-image: url(images/desktop/image-deep-earth.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  height: 800px;
+  
+}
+
+.pic-2 {
+  background-image: url(images/desktop/image-night-arcade.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  height: 800px;
+}
+
+.pic-3 {
+  background-image: url(images/desktop/image-soccer-team.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  height: 800px;
+
+}
+
+.pic-4 {
+  background-image: url(images/desktop/image-grid.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  height: 800px;
+}
+
+.pic-5 {
+  background-image: url(images/desktop/image-from-above.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  height: 800px;
+}
+
+.pic-6 {
+  background-image: url(images/desktop/image-pocket-borealis.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  height: 800px;
+}
+
+.pic-7 {
+  background-image: url(images/desktop/image-curiosity.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  height: 800px;
+}
+
+.pic-8 {
+  background-image: url(images/desktop/image-fisheye.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  height: 800px;
+}
+
+.lowermid-content h2 {
+  position: relative;
+  font-size: 2em;
+  color: white;
+  padding-top: 21em;
+  padding-left: 1.3em;
+  text-align: left;
+  margin: 0;
+  width: auto ;
+}
+
+.pic-1 span {
+  display: block;
+}
+
+.pic-2 span {
+  display: block;
+}
+
+.pic-3 span {
+  display: block;
+}
+
+.pic-4 span {
+  display: block;
+}
+
+.pic-5 span {
+  display: block;
+}
+
+.pic-6 span {
+  display: block;
+}
+
+.pic-7 span {
+  display: block;
+}
+
+.pic-8 span {
+  display: block;
+}
+
+.footer-logo {
+  text-align: left;
+  padding-left: 7em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+footer img{
+  margin-bottom: 2em;
+}
+
+nav {
+  margin-left: 7em ;
+}
+
+nav a {
+  display: inline;
+  font-size: 1em;
+  margin: 1em;
+  margin-top: 0em;
+  margin-left: 0em;
+  float: left;
+  padding-top: 0em;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  text-align: right;
+  width: 20%;
+  position: relative;
+  float: right;
+  bottom: 7em;
+  right: 5.5em;
+}
+
+.facebook {
+  background-color: pink;
+}
+
+footer p {
+  text-align: right;
+  position: relative;
+  bottom: 2.5em;
+  left: 60.5em;
+  width: 40%;
+}
